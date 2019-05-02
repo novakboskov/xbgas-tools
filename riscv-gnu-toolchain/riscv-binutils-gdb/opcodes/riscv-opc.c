@@ -717,7 +717,7 @@ const struct riscv_opcode riscv_opcodes[] =
 {"erlbu",     "64I", "d,s,Y",   MATCH_ERLBU,MASK_ERLBU,match_opcode, 0 }, /* d,s,Y */
 
 {"ersd",      "64I", "d,s,Y",   MATCH_ERSD, MASK_ERSD, match_opcode, 0 }, /* s,t,Y */
-{"ersw",      "64I", "d,s,Y",   MATCH_ERSW, MASK_ERSW, match_opcode, 0 }, /* s,t,Y */
+{"ersw",      "64I", "s,t,Y",   MATCH_ERSW, MASK_ERSW, match_opcode, 0 }, /* s,t,Y */
 {"ersh",      "64I", "d,s,Y",   MATCH_ERSH, MASK_ERSH, match_opcode, 0 }, /* s,t,Y */
 {"ersb",      "64I", "d,s,Y",   MATCH_ERSB, MASK_ERSB, match_opcode, 0 }, /* s,t,Y */
 
